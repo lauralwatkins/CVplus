@@ -38,8 +38,9 @@ There are 5 files that contain actual content that you will want to modify with 
 * content\_Preamble : this contains extra style-stuff you wish to specify for your documents. I already put some basic stuff in there to do some layout tweaking but you may wish to add more to personalise your documents. This documents also includes your name as it appears in the document headers on all pages except the first page.
 * content\_Name : in this template, on the front page of each document generated, your name appears in big letters at the top. This sets the formatting for that.
 
-This is all fairly bare bones are far as style and layout are concerned. So personalise away!
+I made some example files, but you'll probably want to add some sections and remove others, and shuffle things around as works best for you. If you already have copies of your own documents, wiping my examples and copy-pasting your info into here will probably work best!
 
+This is all fairly bare bones are far as style and layout are concerned. So personalise away!
 
 ### Templates
 
