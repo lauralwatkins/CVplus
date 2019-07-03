@@ -1,0 +1,49 @@
+\documentclass[11pt]{article}
+
+% fonts
+\usepackage{mathptmx}
+\usepackage[scaled=.90]{helvet}
+\usepackage{courier}
+
+% load intelligent spacing package
+\usepackage{setspace}
+
+% load page geometry - remove twoside for onesided output
+\usepackage[\mypapersize, verbose, twoside, heightrounded]{geometry}
+\geometry{inner=2cm}                % offsets of main body from page margins
+\geometry{outer=2cm}                % ...
+\geometry{top=\mytopmargin}         % ...
+\geometry{bottom=2cm}             % ...
+\geometry{bindingoffset=0cm}        % extra margin on binding side
+\geometry{headheight=0.5cm}         % height of header
+\geometry{headsep=\baselineskip}    % bottom of head to top of body
+\geometry{footskip=0\baselineskip}  % bottom of body to bottom of foot
+\setlength{\parindent}{0pt}         % paragraph indent size
+
+
+% format section and subsection headings
+\usepackage{sectsty}
+\usepackage[calcwidth]{titlesec}
+\titleformat{\section}[hang]{}{}{0pt}{\huge}[]
+\titleformat{\subsection}[hang]{}{}{0pt}{\Large}[]
+\titleformat{\subsubsection}[hang]{\bfseries}{}{0pt}{}[]
+
+% nice references and links
+\usepackage{hyperref}
+\usepackage[all]{hypcap}
+\hypersetup{
+    breaklinks,
+    colorlinks,
+    pdftex,
+    bookmarks=true,
+    pdftitle={\mydocumenttitle},
+    pdfauthor={**Your Name**}
+}
+\urlstyle{rm}
+
+% nice headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\myheader}
+\rhead{**Your Name**}
